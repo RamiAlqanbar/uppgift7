@@ -1,0 +1,91 @@
+
+.nav-bar{
+    display: grid;
+     grid-template-columns: repeat(20,1fr);
+    --backdrop-filter: blur(10px); 
+    --webkit-backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, .7);
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+     
+
+.nav-about:hover,
+.nav-cart:hover,
+.nav-contact:hover,
+.nav-home:hover,
+.nav-products:hover,
+.nav-signin:hover {
+          
+            border-bottom: 2px solid white;
+            transform: scale(1.2);
+            text-align: center;
+			border-radius: 5px;
+            box-shadow: 20px white;
+            width: auto;
+            align-self: center;
+            justify-self: center;
+            top:0;
+		
+          
+            
+}
+
+.nav-about,
+.nav-cart,
+.nav-contact,
+.nav-home,
+.nav-logo,
+.nav-products,
+.nav-signin{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.nav-logo{
+    grid-column: 1/4;
+    width: 15%;
+    justify-self: center;
+    align-self: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.nav-home{
+    grid-column: 6/8;
+    justify-self: center;
+    align-self: center;
+}
+.nav-products{
+    grid-column: 8/10;
+    justify-self: center;
+    align-self: center;
+
+}
+.nav-about{
+
+    grid-column: 10/12;
+    justify-self: center;
+    align-self: center;
+}
+
+.nav-contact{
+    grid-column: 12/14;
+    justify-self: center;
+    align-self: center;
+}
+
+.nav-cart{
+    grid-column: 17/18;
+    justify-self: center;
+    align-self: center;
+
+}
+
+.nav-signin{
+    grid-column: 18/20;
+    justify-self: center;
+    align-self: center;
+}

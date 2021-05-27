@@ -1,0 +1,40 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+    
+
+
+.btn-grad-small {
+ 
+   padding: 10px 15px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white; 
+   font-family: sans-serif;           
+   border-radius: 10px;
+   display: block;
+   background-color:  rgba(0, 0, 0, .7);
+   outline: none;
+
+ }
+
+ .btn-grad-small:hover {
+   cursor: pointer;
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+   outline: none;
+ }
+ 
+
+ input{
+    padding: 8px;
+    border-radius: 4px;
+    --backdrop-filter: blur(10px); 
+    --webkit-backdrop-filter: blur(10px);
+    border-color: rgba(0, 0, 0, .7);
+ }
